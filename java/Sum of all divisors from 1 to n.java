@@ -3,7 +3,7 @@ class Solution{
         //  code here
         long sum = 0;
         for(int i=1; i<=N; i++) 
-            sum = sum + i(Ni);
+            sum += i*(N/i);
         return sum;
     }
 }
